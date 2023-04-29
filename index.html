@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html  lang="pt-br">
 <head>
   
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <meta name="description" content="">
   
   
-  <title>Home</title>
+  <title>RSTI.info</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/icon54-v3/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -20,13 +20,30 @@
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
   
   
+<meta name="theme-color" content="#0f7699">
+<link rel="manifest" href="manifest.json">
+<script src="sw-connect.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
 
@@ -61,30 +78,130 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="https://rsti.info">
-                         <img src="assets/images/rect876-6-9-138x117.png" alt="RSTI.info" title="" style="height: 5.2rem;">
+                         <img src="assets/images/rect876-6-9-138x117.png" alt="RSTI.info" title="" style="height: 5.3rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-4" href="https://rsti.info">
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-5" href="https://rsti.info">
                         RSTI.info</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-white text-primary display-4" href="index.html#services-1">
+                    <a class="nav-link link text-white display-4" href="index.html#services-1">
                         
                         Serviços</a>
-                </li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                </li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
                         
-                        Soluções</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="#">LeadCon - Gerenciador de leads</a><a class="text-white dropdown-item display-4" href="#" aria-expanded="false">iTPass - Gerenciador de senhas</a></div></li>
-                <li class="nav-item">
+                        Soluções</a><div class="dropdown-menu"><a class="dropdown-item text-white text-primary display-4" href="https://rsti.info/leadcon/healthcorp/" target="_blank">LeadCon - Gerenciador de leads</a><a class="dropdown-item text-white text-primary display-4" href="https://rsti.info/area51/itpass/" aria-expanded="false" target="_blank">iTPass - Gerenciador de senhas</a></div></li>
+                <li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                        
+                        Ferramentas</a><div class="dropdown-menu"><a class="text-white dropdown-item text-primary display-4" href="#" data-toggle="modal" data-target="#mbr-popup-2m">Cobertura de Toner/Tinta</a><a class="text-white dropdown-item text-primary display-4" href="#" data-toggle="modal" data-target="#mbr-popup-2i">Verifica CPF</a></div></li><li class="nav-item">
                     <a class="nav-link link text-white display-4" href="#">
                         
                         Sobre nós</a>
                 </li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="#"><span class="mbri-website-theme mbr-iconfont mbr-iconfont-btn"></span>Crie seu projeto</a></div>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="#" data-toggle="modal" data-target="#mbr-popup-1s"><span class="mbri-website-theme mbr-iconfont mbr-iconfont-btn"></span>Crie seu projeto</a></div>
         </div>
     </nav>
 </section>
+
+<div class="modal mbr-popup cid-sa16hDu71B fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-1s" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-0">
+                    <h5 class="modal-title mbr-fonts-style display-5">Criando seu projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M31.797 0.191c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.598 0.581 0.342 1.543 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM14.472 17.515c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.613 0.595 0.34 1.562 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM1.144 0.205c-0.584-0.587-1.544 0.336-0.942 0.942l30.654 30.651c0.613 0.625 1.563-0.325 0.942-0.942z"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        Preencha os dados abaixo para começarmos a entender qual a sua necessidade. Não se preocupe se não souber se expressar em termos técnicos, nosso papel é entender o que você precisa primeiro para depois analisarmos quais as melhores soluções para o seu negócio.</p>
+
+                    <div>
+                        
+                            
+
+                            <div class="form-wrapper" data-form-type="formoid">
+<!--Formbuilder Form-->
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Projeto"><input type="hidden" name="g-recaptcha-response" data-form-captcha="true" value="6LcBmMkZAAAAADJ8WWwIMwo7KE5lsndQHsxg_YlH"><input type="hidden" name="email" data-form-email="true" value="dKOBwsH1dZPyXiG+OAkC5qyeWp/IHsRo1A11x0xr2M7fYPWBhvSkh8EpfAzpmy35s17ucOftEdpm3A+x2u7hRAXqhIjAXExwDAU1ZloH1+nlWL+8ZvuZhpxdyWLWUkx5.6A4MFNkZIi5++0IFxKI+l1Z86dN8V2QkVQx8yHCo6HhXolajh+Dqwm5EjUqAMCSftnoy/xuRytH9EDOIcO3UaXupH0iBy9bBVgI79Ke72Eka1GgJAOa82QfyzZvJFX1a.rwL1wqSyBtCn+tudwdx6/jwkhi7P3GPOLashM71Eng4yBGK3vkdcafWJ+xDcLMRwJ9+RJ135g/s7AZQsfHCQTdNf8iD87YQYMHIXJLeLqPQJiQvly5IJ0sxSb/lgyXOX">
+<div class="">
+<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigado pelo envio, em breve vamos entrar em contato. Fique à vontade para continuar navegando no site.</div>
+<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+</div>
+</div>
+<div class="dragArea">
+<div class="col form-group" data-for="nome">
+<label for="nome-mbr-popup-1s" class="form-control-label mbr-fonts-style display-7">Nome</label>
+<input type="text" name="nome" placeholder="Seu nome" data-form-field="nome" required="required" class="form-control display-7" value="" id="nome-mbr-popup-1s">
+</div>
+<div class="col form-group " data-for="email">
+<label for="email-mbr-popup-1s" class="form-control-label mbr-fonts-style display-7">E-mail</label>
+<input type="email" name="email" placeholder="Seu e-mail" data-form-field="Email" required="required" class="form-control display-7" value="" id="email-mbr-popup-1s">
+</div>
+<div data-for="telefone" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="telefone-mbr-popup-1s" class="form-control-label mbr-fonts-style display-7">Telefone ou WhatsApp (opcional)</label>
+<input type="tel" name="telefone" placeholder="Seu telefone" data-form-field="telefone" class="form-control display-7" value="" id="telefone-mbr-popup-1s">
+</div>
+<div data-for="empresa" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="empresa-mbr-popup-1s" class="form-control-label mbr-fonts-style display-7">Empresa (opcional)</label>
+<input type="text" name="empresa" placeholder="Sua empresa" data-form-field="empresa" class="form-control display-7" value="" id="empresa-mbr-popup-1s">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group">
+<div class="form-control-label">
+<label for="Outros/não tenho certeza-mbr-popup-1s" class="mbr-fonts-style display-7">Selecione os serviços que você precisa</label>
+</div>
+<div data-for="Suporte" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Suporte" data-form-field="Suporte" class="form-check-input display-7" id="Suporte-mbr-popup-1s">
+<label for="Suporte-mbr-popup-1s" class="form-check-label display-7">Suporte</label>
+</div>
+<div data-for="Infraestrutura" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Infraestrutura" data-form-field="Infraestrutura" class="form-check-input display-7" id="Infraestrutura-mbr-popup-1s">
+<label for="Infraestrutura-mbr-popup-1s" class="form-check-label display-7">Infraestrutura</label>
+</div>
+<div data-for="Aplicações" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Aplicações" data-form-field="Aplicações" class="form-check-input display-7" id="Aplicações-mbr-popup-1s">
+<label for="Aplicações-mbr-popup-1s" class="form-check-label display-7">Aplicações</label>
+</div>
+<div data-for="Integrações" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Integrações" data-form-field="Integrações" class="form-check-input display-7" id="Integrações-mbr-popup-1s">
+<label for="Integrações-mbr-popup-1s" class="form-check-label display-7">Integrações</label>
+</div>
+<div data-for="Treinamentos" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Treinamentos" data-form-field="Treinamentos" class="form-check-input display-7" id="Treinamentos-mbr-popup-1s">
+<label for="Treinamentos-mbr-popup-1s" class="form-check-label display-7">Treinamentos</label>
+</div>
+<div data-for="Consultoria" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Consultoria" data-form-field="Consultoria" class="form-check-input display-7" id="Consultoria-mbr-popup-1s">
+<label for="Consultoria-mbr-popup-1s" class="form-check-label display-7">Consultoria</label>
+</div>
+<div data-for="Outros/não tenho certeza" class="form-check form-check-inline">
+<input type="checkbox" value="Yes" name="Outros/não tenho certeza" data-form-field="Outros/não tenho certeza" class="form-check-input display-7" id="Outros/não tenho certeza-mbr-popup-1s">
+<label for="Outros/não tenho certeza-mbr-popup-1s" class="form-check-label display-7">Outros/não tenho certeza</label>
+</div>
+</div>
+<div data-for="detalhes" class="col-lg-12 col-md-12 col-sm-12 form-group">
+<label for="detalhes-mbr-popup-1s" class="form-control-label mbr-fonts-style display-7">Detalhes</label>
+<textarea name="detalhes" placeholder="Descreva o seu projeto ou necessidade com o máximo de detalhes possível." data-form-field="detalhes" class="form-control display-7" required="required" id="detalhes-mbr-popup-1s"></textarea>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 input-group-btn"><button type="submit" class="btn btn-primary w-100 display-4">ENVIAR PROJETO</button></div>
+</div>
+<span class="gdpr-block">
+<label>
+<span class="textGDPR display-7" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-mbr-popup-1s" required="">Estou de acordo com a <a style="color: #149dcc; text-decoration: none;" href="privacidade.html">Política de Privacidade</a>.</span>
+</label>
+</span></form><!--Formbuilder Form-->
+</div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
 
 <section class="header6 cid-s7mJf0RR4p mbr-fullscreen" data-bg-video="https://youtu.be/unWdd5xVYHQ" id="header">
 
@@ -100,8 +217,8 @@
                     Soluções tecnológicas para pequenos negócios</h1>
                 <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
                     Não importam a área do seu negócio nem o tamanho da sua equipe. Todo mundo precisa de tecnologia no seu dia a dia, mas nem todo mundo sabe como obte-la.</p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="#">LEADCON</a>
-                        <a class="btn btn-md btn-white-outline display-4" href="#">ITPASS</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://rsti.info/leadcon/healthcorp/" target="_blank">LEADCON</a>
+                        <a class="btn btn-md btn-white-outline display-4" href="https://rsti.info/area51/itpass/" target="_blank">ITPASS</a></div>
             </div>
         </div>
     </div>
@@ -143,9 +260,9 @@
                 </div>
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5">
-                        Suporte em informática</h4>
+                        Suporte</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Suporte remoto em tempo real via software seguro de acesso remoto e suporte assincrono via e-mail e telefone.
+                        Suporte de informática em tempo real via software seguro de acesso remoto e suporte assíncrono via e-mail ou telefone.
                     </p>
                 </div>
             </div>
@@ -156,9 +273,9 @@
                 </div>
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5">
-                        Infraestrutura de TI</h4>
+                        Infraestrutura</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Projeto, implantação e administração de infraestrutura de tecnologia e comunicação, física e Cloud.
+                        Projeto, implantação e administração de infraestrutura de tecnologia e comunicação, física ou em nuvem (Cloud).
                     </p>
                 </div>
             </div>
@@ -168,8 +285,7 @@
                     <span class="mbr-iconfont mbri-website-theme"></span>
                 </div>
                 <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-5">
-                        Sites e aplicações</h4>
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">Aplicações</h4>
                     <p class="mbr-text mbr-fonts-style display-7">Desenvolvimento e configuração de sites institucionais, landing pages e aplicações para projetos específicos.
                     </p>
                 </div>
@@ -199,7 +315,7 @@
                     <h4 class="card-title py-3 mbr-fonts-style display-5">
                         Integrações</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Desenvolvimento de integrações entre aplicações e sistemas, rotinas e automatização de processos.
+                        Desenvolvimento de integrações entre aplicações e sistemas, rotinas, ferramentas e automatização de processos.
                     </p>
                 </div>
             </div>
@@ -209,7 +325,7 @@
                     <span class="mbr-iconfont icon54-v3-presentation-2"></span>
                 </div>
                 <div class="card-box">
-                    <h4 class="card-title py-3 mbr-fonts-style display-5">Seleção e Treinamentos</h4>
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">Treinamentos</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
                         Participação técnica no processo seletivo da sua empresa e desenvolvimento de treinamentos e cursos <em>in company</em>.
                     </p>
@@ -222,9 +338,9 @@
                 </div>
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-5">
-                        Consultoria especializada</h4>
+                        Consultoria</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Consultoria especializada para compras, estratégia de marketing e adoção de ferramentas colaborativas.
+                        Consultoria especializada para compras e contratações, criação de estratégia de marketing e adoção de ferramentas.
                     </p>
                 </div>
             </div>
@@ -237,7 +353,7 @@
 
 </section>
 
-<section class="cid-qTkAaeaxX5" id="footer">
+<section class="cid-sa0szr0tL5" id="footer1-1g">
 
     
 
@@ -261,12 +377,14 @@
                 <h5 class="pb-3">
                     Contato</h5>
                 <p class="mbr-text">
-                    Email: joao@rsti.info &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Fone: 11 98372-4240 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br></p>
+                    Email: joao@rsti.info<br>
+                    Fone: 11 98372-4240
+                </p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
                     Soluções</h5>
-                <p class="mbr-text">iTPass<br>LeadCon</p>
+                <p class="mbr-text"><a href="https://rsti.info/area51/itpass" class="text-success" target="_blank">iTPass</a><br><a href="https://rsti.info/leadcon/healthcorp/" class="text-success" target="_blank">LeadCon</a></p>
             </div>
         </div>
         <div class="footer-lower">
@@ -278,113 +396,33 @@
             <div class="media-container-row mbr-white">
                 <div class="col-sm-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        CNPJ 24.683.432/0001-02</p>
+                        CNPJ 24.683.432/0001-02 | <a href="privacidade.html" class="text-success">Política de Privacidade</a></p>
                 </div>
                 <div class="col-md-6">
                     <div class="social-list align-right">
                         <div class="soc-item">
-                            <a href="https://twitter.com/rsti_info" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                            <a href="https://twitter.com/rsti_info" target="_blank" rel="noreferrer">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(247, 237, 74); fill: rgb(247, 237, 74);"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/rsti.info" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                            <a href="https://www.facebook.com/rsti.info" target="_blank" rel="noreferrer">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(247, 237, 74); fill: rgb(247, 237, 74);"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.youtube.com/channel/UCzKJXSy-kzKAsrlYgf3WM_Q" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                            <a href="https://www.youtube.com/channel/UCzKJXSy-kzKAsrlYgf3WM_Q" target="_blank" rel="noreferrer">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon" style="color: rgb(247, 237, 74); fill: rgb(247, 237, 74);"></span>
                             </a>
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.instagram.com/rsti_info/" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                            <a href="https://www.instagram.com/rsti_info/" target="_blank" rel="noreferrer">
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" style="color: rgb(247, 237, 74); fill: rgb(247, 237, 74);"></span>
                             </a>
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="clients cid-s8SKgGySi8" data-interval="false" id="seals">
-      
-
-    
-        
-
-    <div class="container">
-        <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false">
-            <div class="carousel-inner" data-visible="6">
-                
-                
-                
-                
-                
-            <div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-locaweb-2020-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-intelbras-2020-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-em-branco-1-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-em-branco-1-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-em-branco-1-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img ">
-                                <img src="assets/images/selo-em-branco-1-140x100.png" class="img-responsive clients-img" alt="" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div></div>
-            <!-- /* Removido o bloco de controles do carrosel -->
-            <!--<div class="carousel-controls">
-                <a data-app-prevent-settings class="carousel-control carousel-control-prev" role="button" data-slide="prev">
-                    <span aria-hidden="true" class="mbri-left mbr-iconfont"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a data-app-prevent-settings class="carousel-control carousel-control-next" role="button" data-slide="next">
-                    <span aria-hidden="true" class="mbri-right mbr-iconfont"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>-->
         </div>
     </div>
 </section>
@@ -398,12 +436,27 @@
     <div class="container">
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2016-2020 - RSTI.info</p>
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">Copyright © 2016-2020 RSTI.info - Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
 </section>
+
+<div class="modal mbr-popup cid-scarqWocv5 fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-2i" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe src="https://rsti.info/tools/verifica-cpf/" frameborder="0" style="padding: 20px; height: 300px"></iframe>
+            </div>
+        </div>
+    </div>
+
+<div class="modal mbr-popup cid-scau2voDDD fade" tabindex="-1" role="dialog" data-overlay-color="#000000" data-overlay-opacity="0.8" id="mbr-popup-2m" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <iframe src="https://rsti.info/tools/cobertura/?calibragem=0&amp;artigo=0" frameborder="0" style="padding: 20px; height: 500px"></iframe>
+            </div>
+        </div>
+    </div>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
@@ -417,16 +470,21 @@
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
+  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
+  <script src="assets/popup-plugin/script.js"></script>
+  <script src="assets/popup-overlay-plugin/script.js"></script>
   <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
   <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
-  <script src="assets/mbr-clients-slider/mbr-clients-slider.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcBmMkZAAAAADJ8WWwIMwo7KE5lsndQHsxg_YlH"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid.min.js"></script>
   
   
   
-<input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='Estou ciente' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="Este site utiliza cookies para entregar a você uma melhor experiência. Leia nossa <a href='cookies.html'>política de cookies</a>.">
-   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+<input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='Continuar' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="Este site utiliza cookies para entregar a você a melhor experiência. Leia nossa <a href='cookies.html'>política de cookies</a>.">
     <input name="animation" type="hidden">
-  </body>
+  
+</body>
 </html>
